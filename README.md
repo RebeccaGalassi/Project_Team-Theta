@@ -57,7 +57,7 @@ Install the downloaded XGBoost file using the command below
 pip install “the name of the downloaded file “
 Make sure to match your python version and system architecture, e.g. “xgboost-0.81-cp37-cp37m-win_amd64.whl” for python 3.7 on a 64-bitmachine.
 
-In my example:
+In the example:
 pip install xgboost-0.81-cp37-cp37m-win_amd64.whl
 That’s all. You have successfully installed XGBoost.
 How does it work 
