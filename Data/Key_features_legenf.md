@@ -13,3 +13,4 @@ HTR = Half Time Result (H=Home Win, D=Draw, A=Away Win)
 ATGS= Away team goal scored
 ATGC=Away team goal conceded
 HTGS=Home team goal scored
+HTGC=Home team Goal conceded
