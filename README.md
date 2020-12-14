@@ -20,7 +20,13 @@ DataCleaning.ipynb is probably the densest file of the project. Its job is to cl
 Main.ipynb is the product of the data cleaning where we perform the prediction.
 Final.py  is the part the final user interacts with. When opened, the user is asked which matchweek they would like to visualize. It then provides a list of the matches in the desired week, along with the outcome the program thinks is most likely to win, therefore the most favourable to bet on.
 
-The data folder contains all the csv data loaded in the application to perform the prediction.
+The data folder contains all the csv files used for the application and must be saved on the desktop with the path below (data folder must not be contained in other folders).
+'C:/Users/Utente/Desktop/Data
+The sources of the files are the followings:
+ http://football-data.co.uk/data.php
+English premier league tables | Kaggle
+In addition it contains a text file where are listed the meanings of the most important features.
+Test folder contains a file called test.py that tests the input of the prediction function of the Football_prediction.py file.
 
 The test folder contains the files __init__.py and test_final.py and the aim is to test the application input on the prediction function.
 
@@ -29,14 +35,6 @@ Football_prediction.py contains the prediction algorithms used. We utilized an a
 XGBoost Documentation — xgboost 1.4.0-SNAPSHOT documentation 
 
 Xgboost is the only library not included in Python used in the project (see the how to section for install instructions)
-The data folder contains all the csv files used for the application and must be saved on the desktop with the path below (data folder must not be contained in other folders).
-'C:/Users/Utente/Desktop/Data
-The sources of the files are the followings:
- http://football-data.co.uk/data.php
-English premier league tables | Kaggle
-
-In addition it contains a text file where are listed the meanings of the most important features.
-Test folder contains a file called test.py that tests the input of the prediction function of the Football_prediction.py file.
 
 HOW TO INSTALL XGBOOST
 Step 1 
