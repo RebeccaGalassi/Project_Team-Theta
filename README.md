@@ -67,6 +67,7 @@ When the user open the Final.py file runs it and must insert an integer number f
 
 Contributors: 
 Rebecca Galassi (prediction, argparse and csv )
+Edoardo Tasca (PEP8)
 Carlo cremona (readme and feature engineering )
 Loriana Dudau (data-cleaning  and feature engineering )
-Nicolo Mariconda (data-cleaning and PEP8)
+Nicolo Mariconda (data-cleaning)
