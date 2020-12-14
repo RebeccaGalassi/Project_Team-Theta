@@ -13,12 +13,16 @@ In the final repository you will find the following elements:
 -Data Folder
 -Test Folder
 
-The first two files are two jupyter notebooks which were used during the development of the various functions but are not necessary for the final application. They’ve been left in the final repository to let the user understand the various components. 
+The first two files (DataCleaning.ipynb and Main.ipynb) are two jupyter notebooks which were used during the development of the various functions but are not necessary for the final application. They’ve been left in the final repository to let the user understand the various components. 
 
 DataCleaning.ipynb is probably the densest file of the project. Its job is to clean the data for prediction. To condense and prepare the data for prediction, we first had to eliminate irrelevant data from the datasets. After skimming by dropping columns the data had to be organized, divided into manageable intervals, that is, match weeks. To help the prediction further, we gave better significance to the data by adding the cumulative goals scored and goals conceded by each team during the course of one season. 
 
 Main.ipynb is the product of the data cleaning where we perform the prediction.
 Final.py  is the part the final user interacts with. When opened, the user is asked which matchweek they would like to visualize. It then provides a list of the matches in the desired week, along with the outcome the program thinks is most likely to win, therefore the most favourable to bet on.
+
+The data folder contains all the csv data loaded in the application to perform the prediction.
+
+The test folder contains the files __init__.py and test_final.py and the aim is to test the application input on the prediction function.
 
 Football_prediction.py contains the prediction algorithms used. We utilized an array of functions in order to better gauge their effectiveness. We found the most effective one was the xgboost method. If you are interested in better understanding how the mathematical model works this link will lead you to the official documentation that contains also additional information on the package and how to install it in various systems.
 
@@ -60,7 +64,8 @@ Make sure to match your python version and system architecture, e.g. “xgboost-
 In the example:
 pip install xgboost-0.81-cp37-cp37m-win_amd64.whl
 That’s all. You have successfully installed XGBoost.
-How does it work 
+
+HOW DOES IT WORK
 When the user open the Final.py file runs it and must insert an integer number from 1 to 38 in addiction to other arguments:
 -o to save the result into a csv file (optional )
 -v or -q to have a full explanation or just the suggestion. Pay attention these are mutually exclusive parameters meaning that you have to choose between the two to insert. 
